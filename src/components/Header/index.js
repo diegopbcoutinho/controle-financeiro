@@ -5,7 +5,7 @@ function Header() {
     return (
         <C.Container>
             <C.Header>
-                <C.Title>Controle Financeiro</C.Title>
+                <C.Title>Fluxo de Caixa</C.Title>
             </C.Header>
         </C.Container>
     )

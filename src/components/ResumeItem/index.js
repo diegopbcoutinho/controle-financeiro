@@ -8,7 +8,7 @@ function ResumeItem({ title, Icon, value }) {
                 <C.HeaderTitle>
                     {title}
                 </C.HeaderTitle>
-                <Icon />
+                <Icon color="#ca3459" />
             </C.Header>
             <C.Total>{value}</C.Total>
         </C.Container>
