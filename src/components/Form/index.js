@@ -35,9 +35,9 @@ function Form({ handleAdd, transactionsList, setTransactionsList }) {
             <C.Container>
                 <C.InputContent>
                     <C.Label>Descrição</C.Label>
-                    <C.Input 
+                    <C.Input
                     value={desc} 
-                    onChange={(e) => setDesc(e.target.value)} />
+                    onChange={(e) => setDesc(e.target.value)} />   
                 </C.InputContent>
                 <C.InputContent>
                     <C.Label>Valor</C.Label>
